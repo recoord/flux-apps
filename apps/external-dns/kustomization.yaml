@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: external-dns
 resources:
   - ns.yaml
+  - sa.yaml
   - cr.yaml
   - deploy.yaml
